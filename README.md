@@ -2,7 +2,33 @@
 
 Concycle is a digital platform that facilitates the exchange of knowledge, skills, and assistance requests among its users in exchange for contribution points. The objective is to cultivate a culture of mutual support within the community, thereby enabling individuals to access personal development experiences and everyday assistance — without the need for monetary resources.
 
+---
+
 ## 📱 Mobile App (Android - Java)
+
+## 📸 Screenshots
+
+> Below are some screens demonstrating the core functionality and user interface of the app:
+
+### 🏠 Home Screen
+![Home](screenshots/HomeScreen.png)
+
+### 🧍 Profile Screen
+![Profile](screenshots/ProfileScreen.png)
+
+### ➕ New Post Screen
+![New Post](screenshots/NewPostScreen.png)
+
+### 🛠️ Admin Panel
+![Admin](screenshots/AdminScreen.png)
+
+### 🔐 Login Screen
+![Login](screenshots/LoginScreen.png)
+
+### 🚪 Main Entry Screen
+![Main](screenshots/MainScreen.png)
+
+---
 
 ### Features:
 - User registration and login
@@ -13,12 +39,16 @@ Concycle is a digital platform that facilitates the exchange of knowledge, skill
 - Profile page includes posts, applications, and score history
 - Admin panel: manage users, posts, and score transactions
 
+---
+
 ### Technologies Used:
 - Java (Android Studio)
 - Volley HTTP library for API communication
 - RecyclerView, CardView, ConstraintLayout, Spinner
 - Intent-based navigation and data passing
 - Custom dark theme with icons and improved UX
+
+---
 
 ## 🚀 How to Run
 
