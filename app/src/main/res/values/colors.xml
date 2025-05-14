@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#00897B</color>
+    <color name="secondaryColor">#FFD600</color>
+    <color name="backgroundColor">#09263c</color>
+    <color name="cardBackground">#0e3a58</color>   <!-- kart rengi -->
+    <color name="textColor">#FFFFFF</color>        <!-- beyaz yazı -->
+    <color name="textSecondary">#B0BEC5</color>    <!-- gri yazı -->
+    <color name="buttonColor">#79ebec</color>
+    <color name="green">#4CAF50</color>
+    <color name="red">#FF5252</color>
+    <color name="dark">#09263c</color>
+    <color name="buttonYellow">#FFCA28</color> <!-- Pastel sarı -->
+    <color name="buttonText">#212121</color> <!-- Buton yazı rengi -->
+    <color name="titleText">#FFFFFF</color> <!-- Başlık rengi -->
+</resources>

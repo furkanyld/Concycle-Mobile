@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="8dp"
+    android:layout_marginHorizontal="12dp"
+    android:padding="12dp"
+    app:cardBackgroundColor="@color/cardBackground"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- İlan Başlığı -->
+        <TextView
+            android:id="@+id/textPostTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📌 İlan: Matematik Dersi"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <!-- Başvuru Mesajı -->
+        <TextView
+            android:id="@+id/textMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💬 Mesaj: Yardım edebilirim."
+            android:textColor="@color/white"
+            android:layout_marginTop="4dp"/>
+
+        <!-- Durum -->
+        <TextView
+            android:id="@+id/textStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📎 Durum: Pending"
+            android:textColor="@color/white"
+            android:layout_marginTop="4dp"/>
+
+        <!-- Butonlar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/buttonAccept"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="✅ Kabul Et"
+                android:backgroundTint="#4CAF50"
+                android:textColor="@color/white"
+                android:layout_marginEnd="8dp"/>
+
+            <Button
+                android:id="@+id/buttonReject"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="❌ Reddet"
+                android:backgroundTint="#F44336"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/buttonComplete"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="✔️ Yardım Tamamlandı"
+                android:backgroundTint="#2196F3"
+                android:textColor="@color/white"
+                android:layout_marginTop="8dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

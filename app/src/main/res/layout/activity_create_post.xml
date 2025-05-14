@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="30dp">
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:hint="Başlık"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/editDescription"
+        android:hint="Açıklama"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/editScore"
+        android:hint="Katkı Puanı"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/spinnerType"
+        style="@style/SpinnerWhiteText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorSurface"/>
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        style="@style/SpinnerWhiteText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorSurface"/>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gönder"
+        android:textColor="#09263c"/>
+</LinearLayout>

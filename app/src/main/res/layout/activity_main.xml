@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🤝 CONCYCLE"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/titleText"
+        android:fontFamily="sans-serif-condensed"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="100dp"/>
+
+    <!-- Giriş Yap -->
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="🔐 Giriş Yap"
+        android:textColor="@color/buttonText"
+        android:backgroundTint="@color/buttonColor"
+        style="?android:attr/buttonBarButtonStyle"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"/>
+
+    <!-- Kayıt Ol -->
+    <Button
+        android:id="@+id/buttonGoToCreateUser"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="📝 Kayıt Ol"
+        android:textColor="@color/buttonText"
+        android:backgroundTint="@color/buttonColor"
+        style="?android:attr/buttonBarButtonStyle"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLogin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Admin Paneli -->
+    <Button
+        android:id="@+id/buttonAdmin"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="⚙️ Admin Paneli"
+        android:textColor="@color/buttonText"
+        android:backgroundTint="@color/buttonColor"
+        style="?android:attr/buttonBarButtonStyle"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGoToCreateUser"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

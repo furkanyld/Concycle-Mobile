@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ConcycleMobile</string>
+
+    <string-array name="type_array">
+        <item>skill</item>
+        <item>help</item>
+    </string-array>
+
+    <string-array name="category_skill">
+        <item>Ders: Matematik, Fizik, Biyoloji</item>
+        <item>Sanat: Enstrüman, Dans, Çizim, Fotoğrafçılık</item>
+        <item>Dijital: Yazılım, Video düzenleme</item>
+    </string-array>
+
+    <string-array name="category_help">
+        <item>Market Alışverişi</item>
+        <item>Ev Tamiratı</item>
+        <item>Araba Arızası</item>
+        <item>Telefon Tamiri</item>
+        <item>Taşıma Yardımı</item>
+    </string-array>
+
+    <string name="text_name">Ad: ...</string>
+    <string name="text_email">E-posta: ...</string>
+    <string name="text_score">Katkı Puanı: ...</string>
+    <string name="label_my_posts">📦 Paylaştığım İlanlar</string>
+    <string name="label_my_requests">📋 Başvurularım</string>
+    <string name="label_transactions">💸 Puan Hareketleri</string>
+
+    <string name="btn_new_post">➕ Yeni Post</string>
+    <string name="btn_profile">👤 Profil</string>
+</resources>

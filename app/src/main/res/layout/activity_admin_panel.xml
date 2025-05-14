@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/backgroundColor"
+    tools:context=".view.AdminPanelActivity">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🛠️ Admin Paneli"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/buttonUsers"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="👥 Kullanıcıları Listele"
+        android:textColor="@color/dark"
+        android:backgroundTint="@color/secondaryColor"
+        style="?android:attr/buttonBarButtonStyle"
+        app:layout_constraintTop_toBottomOf="@id/textTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/buttonPosts"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="📦 Postları Listele"
+        android:textColor="@color/dark"
+        android:backgroundTint="@color/secondaryColor"
+        style="?android:attr/buttonBarButtonStyle"
+        app:layout_constraintTop_toBottomOf="@id/buttonUsers"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonTransactions"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="💸 Puan Aktarımları"
+        android:textColor="@color/dark"
+        android:backgroundTint="@color/secondaryColor"
+        style="?android:attr/buttonBarButtonStyle"
+        app:layout_constraintTop_toBottomOf="@id/buttonPosts"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
